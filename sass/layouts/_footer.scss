@@ -1,0 +1,47 @@
+.footer {
+    width: 100%;
+    background-color: rgba($color-black, .8);
+
+    &__container {
+        width: 90%;
+        font-size: $default-font-size;
+
+        &--menu ul {
+            justify-content: flex-start;
+            list-style: none;
+            padding-top: 2rem;
+            border-top: 1px solid $color-white;
+            
+
+            li {
+                color: $color-white;
+                text-transform: uppercase;
+                
+            }
+
+            a:link {
+                text-decoration: none;
+                transition: all .3s;
+                border-bottom: 2px solid transparent;
+
+            }
+            a:hover {
+                border-bottom: 2px solid $color-primary;
+            }
+            
+            
+        }
+
+        &--text {
+            color: $color-white;
+            padding-top: 2rem;
+            border-top: 1px solid $color-white;
+            
+        }
+    }
+
+    &__logo {
+        width: 30rem;
+        height: auto;
+    }
+}
